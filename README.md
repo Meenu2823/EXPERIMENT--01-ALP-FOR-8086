@@ -130,7 +130,7 @@ ret
 ![Screenshot 2024-08-19 135830](https://github.com/user-attachments/assets/3f787889-13d4-4c3a-a2af-431c4cbf12d7)
 
 ## Programs for logical  operations
-### Logical OR alp
+### OR operation alp
 ~~~
 org 100h
 MOV SI,0532H;
@@ -142,7 +142,7 @@ ret
 ### Output
 ![Screenshot 2024-08-20 052903](https://github.com/user-attachments/assets/33c2c619-0fb7-47dd-a63e-cb1a95abca86)
 
-### Logical AND alp
+### AND operation alp
 ~~~
 org 100h
 MOV AX,2255H;
@@ -154,7 +154,7 @@ ret
 ### Output
 ![Screenshot 2024-08-19 142608](https://github.com/user-attachments/assets/46739ffd-d150-4049-84cb-9d064296e8ae)
 
-### Logical XOR alp
+### XOR operation alp
 ~~~
 org 100h
 MOV AX,3223H;
@@ -166,7 +166,7 @@ ret
 ### Output
 ![Screenshot 2024-08-19 142832](https://github.com/user-attachments/assets/aadedde0-ec30-4546-a2fb-8dc2e043facc)
 
-### Logical NOT alp
+### NOT operation alp
 ~~~
 org 100h
 MOV [SI+2],AX;
